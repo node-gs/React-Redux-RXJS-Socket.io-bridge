@@ -1,0 +1,65 @@
+.card {
+  height: 120px;
+  width: 80px;
+  background-color: white;
+  border-style: solid;
+  border-radius: 10px;
+  border-color: black;
+  display: inline-block;
+  box-shadow: 0px 0px 6px 2px #5d59597a;
+  border-width: 0;
+  padding: 0 3px;
+  transition: margin 0.5s ease-out;
+}
+.card:hover {
+	cursor:pointer;
+  box-shadow: 0px 0px 6px 2px red;
+}
+
+.cardBack {
+  background: url("./red-back.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.red {
+  color: red;
+}
+
+.black {
+  color: black;
+}
+
+.cardLeft {
+  width: 35px;
+  float: left;
+}
+
+.cardRight {
+  width: 35px;
+  float: right;
+}
+
+.rank {
+  font-size: 24px;
+  margin: 5% 0 5% 10%;
+}
+
+.smallSuit {
+  font-size: 22px;
+  margin: 5% 5% 5% 20px;
+}
+
+.largeSuit {
+  font-size: 48px;
+  margin: 80% 0 0 7%;
+}
+
+.placeRight {
+   margin-left: -50px;
+}
+
+.placeDown {
+  margin-top: -80px;
+}

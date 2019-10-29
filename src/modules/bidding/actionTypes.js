@@ -1,0 +1,2 @@
+export const PLACE_BID = 'BIDDING_PLACE_BID';
+export const REQUEST_BIDDING_END = 'REQUEST_BIDDING_END';
